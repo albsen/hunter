@@ -1,10 +1,14 @@
 hunter
 ======
 
+## Changelog
+
+- 2024-04-24: Updated build to work with rustc 1.77.2 (25ef9e3d8 2024-04-09)
+
+## Documentation
 
 ![hunter](https://raw.githubusercontent.com/rabite0/hunter-stuff/master/player.png)
 
-NEW
 - [**FASTER**] hunter is now *much* faster
 - [Custom Keybindings] Customize keys to your liking
 - [Graphics] High quality support for graphics using SIXEL/kitty protocols
