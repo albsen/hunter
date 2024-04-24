@@ -1,0 +1,20 @@
+[package]
+name = "osstrtools"
+version = "0.2.2"
+authors = ["rabite0"]
+edition = "2018"
+description = "Additional helper methods for OsStr"
+homepage = "https://github.com/rabite0/osstrtools"
+repository = "https://github.com/rabite0/osstrtools"
+readme = "README.md"
+license = "WTFPL"
+keywords = ["unix", "linux", "filename", "osstr", "osstring"]
+categories = ["command-line-utilities"]
+
+[features]
+default = []
+windows = ["os_str_bytes"]
+
+[dependencies]
+itertools = "0.8.2"
+os_str_bytes = { version = "1.0", optional = true }

@@ -33,7 +33,7 @@ signal-notify = "0.1.3"
 systemstat = "0.1.5"
 mime_guess = "2.0"
 async_value = "0.2.7"
-osstrtools = "0.2"
+osstrtools = { version = "0.2.2", path = "./vendor/osstrtools" }
 pathbuftools = "0.1"
 clap = "2.33"
 mime = "0.3.13"
