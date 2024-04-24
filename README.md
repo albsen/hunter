@@ -3,9 +3,16 @@ hunter
 
 ## Changelog
 
-- 2024-04-24: Updated build to work with rustc 1.77.2 (25ef9e3d8 2024-04-09)
+- 2024-04-24: Updated build to work with rustc 1.77.2 (25ef9e3d8 2024-04-09) - included osstrtools as this looks to be unmaintained as well.
 
-## Documentation
+## TLD - Quick build instructions
+
+```
+git clone https://github.com/albsen/hunter.git
+cargo install  --path .
+```
+
+## Overview
 
 ![hunter](https://raw.githubusercontent.com/rabite0/hunter-stuff/master/player.png)
 
@@ -15,8 +22,6 @@ hunter
 - [QuickActions] Added quick action creator/customizer
 - [Previews] New and improved preview customization
 - [**[IRC channel](https://webchat.freenode.net/?channels=hunter)**] Problems? Bugs? Praise? Chat with us: [#hunter @ Freenode](https://webchat.freenode.net/?channels=hunter)!
-
-
 
 hunter is a fast and lag-free file browser/manager for the terminal. It features a heavily asynchronous and multi-threaded design and all disk IO happens off the main thread in a non-blocking fashion, so that hunter will always stay responsive, even under heavy load on a slow spinning rust disk, even with all the previews enabled.
 
