@@ -5,7 +5,7 @@ hunter
 
 - 2024-04-24: Updated build to work with rustc 1.77.2 (25ef9e3d8 2024-04-09) - included osstrtools as this looks to be unmaintained as well.
 
-## TLD - Quick build instructions
+## Quick build instructions
 
 ```
 git clone https://github.com/albsen/hunter.git
